@@ -1,0 +1,142 @@
+/* 
+Author: Sakib MD Nazmush
+Gmail: smdnazmush19@gmail.com
+
+Practising CSS form.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #F3E0E2;
+}
+main {
+    display: flex;
+    margin: 0 auto;
+    width: 80vw;
+    box-shadow: 10px 10px 30px rgba(65, 65, 65, 0.986);
+}
+main > * {
+    flex-basis: 100%;
+}
+.form-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/********************** left part **********************/
+
+.login-form {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+.login-heading {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.fab {
+    font-size: 30px;
+    border: 2px solid #EEEEEE;
+    padding: 14px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.social a {
+    text-decoration: none;
+    color: black;
+}
+.fa-facebook {
+    margin-right: 5px;
+}
+.fa-facebook:hover {
+    color: #fff;
+    background: #951900;
+    transition: 0.3s ease-in-out;
+}
+.fa-twitter {
+    margin-left: 5px;
+}
+.fa-twitter:hover {
+    color: #fff;
+    background: #951900;
+    transition: 0.3s ease-in-out;
+}
+.use-account {
+    margin-bottom: 10px;
+    color: #7C7A79;
+}
+input {
+    width: 80%;
+    background-color: #EEEEEE;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 1.1rem;
+    border: none;
+}
+
+/********************** login button **********************/
+.btn {    
+    font-size: 1.1rem;
+    display: block;
+    margin: auto;
+    padding: 10px 12px;
+    background: #FF4B2B;
+    width: 18%;
+    border-radius: 25px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn:hover {
+    background: #951900; 
+    transition: 0.3s ease-in-out;
+}
+form a {
+    text-decoration: none;
+    color: #646363;
+    font-size: 1.3rem;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/********************** Right part **********************/
+
+.login-text {
+    padding: 50px 20px;
+    text-align: center;
+    background-image: linear-gradient(to right, #FF464C, #FF416B);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.text {
+    padding: 6.5rem;
+}
+.text h1 {
+    padding: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.text p {
+    font-size: 1.6rem;
+}
